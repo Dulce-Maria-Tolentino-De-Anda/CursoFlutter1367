@@ -15,7 +15,7 @@ class MiTarjeta extends StatelessWidget {
         title: "Flutter Widget Tarjeta Card",
         home: Scaffold(
           appBar: AppBar(
-            title: const Text("Flutter villar"),
+            title: const Text("Flutter Tolentino"),
             centerTitle: true,
           ),
           body: LaTarjeta(),
