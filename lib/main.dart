@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tolentinocurso/mi_widgets/mi_tarjeta.dart';
+import 'package:tolentinocurso/mi_widgets/dialogo_acerca_de.dart';
 
 const Color darkBlue = Color(0xFF12202F);
 void main() => runApp(MiTarjeta());
@@ -18,7 +18,7 @@ class MiTarjeta extends StatelessWidget {
             title: const Text("Flutter Tolentino"),
             centerTitle: true,
           ),
-          body: LaTarjeta(),
+          body: const DialogoAcercaDe(),
         ));
   }
 }
